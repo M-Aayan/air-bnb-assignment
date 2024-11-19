@@ -21,6 +21,24 @@ body {
   header h1 {
     margin: 0;
   }
+
+  .Top-list a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline;
+    padding: 0.5rem 1rem;
+  }
+
+
+  .Top-list a:hover{
+    border: 1px solid #555;
+    border-radius: 20px;
+    background-color: white;
+    color: #555;
+    box-shadow: 3px 2px 15px #555;
+  }
+
   
   header nav ul {
     list-style: none;
@@ -28,6 +46,7 @@ body {
     padding: 0;
     display: flex;
     gap: 1rem;
+    align-items: center;
   }
   
   header nav ul li a {
@@ -81,9 +100,11 @@ body {
   }
   
   .cards {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     padding: 20px;
-    margin: 20px;
+    margin: 60px;
     gap: 1.5rem;
   }
 
@@ -103,7 +124,7 @@ body {
   .card img {
     width: 100%;
     height: auto;
-    display: block;
+    display:block;
   }
   
   .card h3 {
@@ -114,4 +135,40 @@ body {
     margin: 0 1rem 1rem;
     color: #555;
   }
+
+  .profile-icon:hover{
+    color: lightskyblue;
+  }
+
+ .btn a{
+  color: white;
+  background-color: #e76079;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 10px;
+  position: fixed;
+  right: 15px;
+  bottom: 10px;
+  }
+
+.footer{
+  background-color: #FF385C;
+  color: white;
+  padding: 1rem 0;
+  text-align: justify;
+}
+
+.footer ul{
+  list-style: none;
+}
+
+.footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul li a:hover{
+  text-decoration: underline;
+}
   
